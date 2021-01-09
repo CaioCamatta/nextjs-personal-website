@@ -1,0 +1,16 @@
+import Layout, { siteTitle, name } from "../components/layout";
+
+const description = "Caio's contact info.";
+const titleSuffix = "Contact";
+
+export default function Home() {
+  return (
+    <Layout description={description} titleSuffix={titleSuffix}>
+      <h2 className="text-4xl font-bold mb-3">Contact</h2>
+      <p>
+        Please reach out via{" "}
+        <a href="https://www.linkedin.com/in/caio-coelho/" className="underline">LinkedIn</a>!
+      </p>
+    </Layout>
+  );
+}
