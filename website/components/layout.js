@@ -66,7 +66,7 @@ export default function Layout({ children, description, titleSuffix }) {
             />
             <h1 className="text-3xl pt-3 font-extrabold">
               <Link href="/">
-                <a>Caio Camatta</a>
+                <a>Caio C. Coelho</a>
               </Link>
             </h1>
             <p className="text-gray-600 pt-3">Software Engineer</p>
@@ -96,7 +96,10 @@ export default function Layout({ children, description, titleSuffix }) {
               <a href="https://github.com/CaioCamatta" aria-label="GitHub">
                 <FontAwesomeIcon icon={faGithub} className="w-6 mr-3" />
               </a>
-              <a href="https://www.linkedin.com/in/caio-coelho/" aria-label="LinkedIn">
+              <a
+                href="https://www.linkedin.com/in/caio-coelho/"
+                aria-label="LinkedIn"
+              >
                 <FontAwesomeIcon
                   icon={faLinkedin}
                   className="w-6 text-blue-600"
@@ -117,8 +120,11 @@ export default function Layout({ children, description, titleSuffix }) {
         </div>
       </main>
 
-      <footer className="text-center pb-3">
+      <footer className="text-center pb-3 mt-5">
         <div className="sm:hidden flex justify-center sm:justify-end mt-5">
+          <Obfuscate email="caioz.co@gmail.com">
+            <FontAwesomeIcon icon={faEnvelope} className="w-6 mr-3" />
+          </Obfuscate>
           <a href="https://github.com/CaioCamatta">
             <FontAwesomeIcon icon={faGithub} className="w-6 mr-3" />
           </a>
@@ -133,7 +139,7 @@ export default function Layout({ children, description, titleSuffix }) {
             Next.js
           </a>
         </p>
-        <p className="text-sm text-gray-500">© 2021 Caio C. Coelho</p>
+        <p className="text-sm text-gray-500">© 2021 Caio Camatta Coelho</p>
       </footer>
     </div>
   );
