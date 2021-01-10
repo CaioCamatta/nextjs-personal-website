@@ -93,10 +93,10 @@ export default function Layout({ children, description, titleSuffix }) {
               <Obfuscate email="caioz.co@gmail.com">
                 <FontAwesomeIcon icon={faEnvelope} className="w-6 mr-3" />
               </Obfuscate>
-              <a href="https://github.com/CaioCamatta">
+              <a href="https://github.com/CaioCamatta" aria-label="GitHub">
                 <FontAwesomeIcon icon={faGithub} className="w-6 mr-3" />
               </a>
-              <a href="https://www.linkedin.com/in/caio-coelho/">
+              <a href="https://www.linkedin.com/in/caio-coelho/" aria-label="LinkedIn">
                 <FontAwesomeIcon
                   icon={faLinkedin}
                   className="w-6 text-blue-600"
@@ -133,7 +133,7 @@ export default function Layout({ children, description, titleSuffix }) {
             Next.js
           </a>
         </p>
-        <p className="text-sm text-gray-400">© 2021 Caio C. Coelho.</p>
+        <p className="text-sm text-gray-500">© 2021 Caio C. Coelho.</p>
       </footer>
     </div>
   );
