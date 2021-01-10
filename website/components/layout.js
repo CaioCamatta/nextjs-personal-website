@@ -58,7 +58,7 @@ export default function Layout({ children, description, titleSuffix }) {
         <div className="container mx-auto sm:grid grid-cols-1 sm:grid-cols-3 sm:mt-28 mt-10 gap-x-5 max-w-5xl">
           <div className="side-panel sm:text-right text-center pb-5 mb-5 sm:mb-0 border-b sm:border-b-0 sm:pr-8 sm:border-r sm:pl-4 border-gray-200">
             <Image
-              src="/profile600.png"
+              src="/profile900.png"
               alt={name}
               width="100"
               height="100"
