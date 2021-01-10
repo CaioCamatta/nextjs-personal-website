@@ -39,6 +39,20 @@ export default function Layout({ children, description, titleSuffix }) {
           {siteTitle}
           {titleSuffix && ` | ${titleSuffix}`}
         </title>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-7N5W44X0L3"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-7N5W44X0L3');
+        `,
+          }}
+        />
       </Head>
       <main className="mb-auto">
         <div className="container mx-auto sm:grid grid-cols-1 sm:grid-cols-3 sm:mt-28 mt-10 gap-x-5 max-w-5xl">
