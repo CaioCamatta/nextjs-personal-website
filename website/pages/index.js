@@ -4,10 +4,11 @@ import Link from "next/link";
 
 const description =
   "Caio Camatta Coelho's personal website, portfolio, and resume.";
+const titleSuffix = "About";
 
 export default function Home() {
   return (
-    <Layout description={description}>
+    <Layout description={description} titleSuffix={titleSuffix}>
       <h2 className="text-4xl font-bold mb-3">About Me</h2>
       <h3 className="text-xl text-gray-700 font-medium mt-3 mb-1">Projects</h3>
       <ul className="list-disc list-inside ml-3 mt-2 text-black-900">

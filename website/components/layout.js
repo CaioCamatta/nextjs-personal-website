@@ -10,7 +10,7 @@ import Obfuscate from "react-obfuscate";
 import styles from "./layout.module.css";
 
 export const name = "Caio Camatta Coelho";
-export const siteTitle = "Caio's Personal Website";
+export const siteTitle = "Caio C. Coelho";
 
 export default function Layout({ children, description, titleSuffix }) {
   const mail1 = "caioz";
