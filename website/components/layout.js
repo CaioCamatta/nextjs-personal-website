@@ -63,6 +63,7 @@ export default function Layout({ children, description, titleSuffix }) {
               width="100"
               height="100"
               className="rounded-full ml-auto"
+              quality="100"
             />
             <h1 className="text-3xl pt-3 font-extrabold">
               <Link href="/">
