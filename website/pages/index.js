@@ -39,7 +39,10 @@ export default function Home() {
           originally created this website in Django.
         </li>
         <li>
-          <a href="https://www.caio.space/" className="text-blue-600">
+          <a
+            href="https://caio-website-prod.herokuapp.com/"
+            className="text-blue-600"
+          >
             Old Personal Website
           </a>{" "}
           (2020) Gatsby.js, React.js, Heroku, GraphQL
@@ -64,7 +67,9 @@ export default function Home() {
           it's own VM.
         </li>
       </ul>
-      <h3 className="text-xl text-gray-700 font-medium mt-4 mb-1">Mobile Apps</h3>
+      <h3 className="text-xl text-gray-700 font-medium mt-4 mb-1">
+        Mobile Apps
+      </h3>
       <ul className="list-disc list-inside">
         <li>
           <a
@@ -107,7 +112,9 @@ export default function Home() {
           (2016) Google Play - C# Unity.
         </li>
       </ul>
-      <h3 className="text-xl text-gray-700 font-medium mt-4 mb-1">Hackathons</h3>
+      <h3 className="text-xl text-gray-700 font-medium mt-4 mb-1">
+        Hackathons
+      </h3>
       <ul className="list-disc list-inside">
         <li>
           <a

@@ -133,7 +133,7 @@ export default function Layout({ children, description, titleSuffix }) {
             Next.js
           </a>
         </p>
-        <p className="text-sm text-gray-500">© 2021 Caio C. Coelho.</p>
+        <p className="text-sm text-gray-500">© 2021 Caio C. Coelho</p>
       </footer>
     </div>
   );
