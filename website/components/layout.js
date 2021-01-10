@@ -3,6 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import React from "react";
+import Obfuscate from "react-obfuscate";
 
 import styles from "./layout.module.css";
 
@@ -10,6 +13,11 @@ export const name = "Caio Camatta Coelho";
 export const siteTitle = "Caio's Personal Website";
 
 export default function Layout({ children, description, titleSuffix }) {
+  const mail1 = "caioz";
+  const mail2 = ".co@";
+  const mail3 = "gmail.com";
+  var email = "";
+
   return (
     <div className="h-screen flex flex-col ">
       <Head>
@@ -61,13 +69,16 @@ export default function Layout({ children, description, titleSuffix }) {
                   <a>Resume</a>
                 </Link>
               </p>
-              <p className="sm:mt-3 mx-2 sm:mx-0 hover:underline text-xl">
+              {/* <p className="sm:mt-3 mx-2 sm:mx-0 hover:underline text-xl">
                 <Link href="/contact">
                   <a>Contact</a>
                 </Link>
-              </p>
+              </p> */}
             </div>
             <div className="hidden sm:flex justify-center sm:justify-end mt-5">
+              <Obfuscate email="caioz.co@gmail.com">
+                <FontAwesomeIcon icon={faEnvelope} className="w-6 mr-3" />
+              </Obfuscate>
               <a href="https://github.com/CaioCamatta">
                 <FontAwesomeIcon icon={faGithub} className="w-6 mr-3" />
               </a>

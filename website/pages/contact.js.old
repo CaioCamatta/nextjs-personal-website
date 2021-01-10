@@ -11,6 +11,7 @@ export default function Home() {
         Please reach out via{" "}
         <a href="https://www.linkedin.com/in/caio-coelho/" className="underline">LinkedIn</a>!
       </p>
+      <a href="https://aemail.com/v2v8">Email</a>
     </Layout>
   );
 }

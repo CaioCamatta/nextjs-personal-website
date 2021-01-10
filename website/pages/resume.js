@@ -32,14 +32,13 @@ export default function Home() {
  */}
       </p>
       <p>
-        <Link href="/resume.pdf">
-          <a className="underline">Download PDF</a>
-        </Link>
-        .
+        <a href="/Caio_C_Coelho_Resume.pdf" className="underline">
+          View PDF
+        </a>
       </p>
       <div className="max-w-xl">
         <Image
-          src="/resume.png"
+          src="/Caio_C_Coelho_Resume.png"
           alt={name}
           width="1656"
           height="2342"
