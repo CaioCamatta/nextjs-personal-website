@@ -19,7 +19,7 @@ export default function Layout({ children, description, titleSuffix }) {
           property="og:image"
           content={`https://og-image.now.sh/${encodeURI(
             siteTitle
-          )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
+          )}.png?theme=light&sm=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
         />
         <meta
           name="og:title"
@@ -33,8 +33,8 @@ export default function Layout({ children, description, titleSuffix }) {
         </title>
       </Head>
       <main className="mb-auto">
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 mt-36 gap-x-10">
-          <div className="side-panel text-right">
+        <div className="container mx-auto sm:grid grid-cols-1 sm:grid-cols-3 sm:mt-28 mt-10 gap-x-5 max-w-5xl">
+          <div className="side-panel sm:text-right text-center pb-5 mb-5 sm:mb-0 border-b sm:border-b-0 sm:pr-8 sm:border-r sm:pl-4 border-gray-200">
             <Image
               src="/profile600.png"
               alt={name}
@@ -50,40 +50,64 @@ export default function Layout({ children, description, titleSuffix }) {
             <p className="text-gray-600 pt-3">Software Engineer</p>
             <p className="text-gray-600">Student at Western University</p>
             <p className="text-gray-600">London, ON - Canada</p>
-            <p className="mt-5 hover:underline text-xl">
-              <Link href="/">
-                <a>About</a>
-              </Link>
-            </p>
-            <p className="mt-3 hover:underline text-xl">
-              <Link href="/resume">
-                <a>Resume</a>
-              </Link>
-            </p>
-            <p className="mt-3 hover:underline text-xl">
-              <Link href="/contact">
-                <a>Contact</a>
-              </Link>
-            </p>
-            <div className="flex flex-row-reverse mt-5">
+            <div className="inline-flex sm:block mt-2 sm:mt-0">
+              <p className="sm:mt-5 mx-2 sm:mx-0 hover:underline text-xl">
+                <Link href="/">
+                  <a>About</a>
+                </Link>
+              </p>
+              <p className="sm:mt-3 mx-4 sm:mx-0 hover:underline text-xl">
+                <Link href="/resume">
+                  <a>Resume</a>
+                </Link>
+              </p>
+              <p className="sm:mt-3 mx-2 sm:mx-0 hover:underline text-xl">
+                <Link href="/contact">
+                  <a>Contact</a>
+                </Link>
+              </p>
+            </div>
+            <div className="hidden sm:flex justify-center sm:justify-end mt-5">
               <a href="https://github.com/CaioCamatta">
-                <FontAwesomeIcon icon={faGithub} className="w-6" />
+                <FontAwesomeIcon icon={faGithub} className="w-6 mr-3" />
               </a>
               <a href="https://www.linkedin.com/in/caio-coelho/">
                 <FontAwesomeIcon
                   icon={faLinkedin}
-                  className="w-6 mr-3 text-blue-600"
+                  className="w-6 text-blue-600"
                 />
               </a>
             </div>
+            <p className="text-gray-500 hidden sm:block text-sm mt-3">
+              {" "}
+              Powered by{" "}
+              <a className="underline" href="https://nextjs.org/">
+                Next.js
+              </a>
+            </p>
           </div>
-          <div className="content-panel col-span-3 mx-2 md:ml-4">
+          <div className="content-panel col-span-2 sm:mx-4 mx-5">
             {children}
           </div>
         </div>
       </main>
 
       <footer className="text-center pb-3">
+        <div className="sm:hidden flex justify-center sm:justify-end mt-5">
+          <a href="https://github.com/CaioCamatta">
+            <FontAwesomeIcon icon={faGithub} className="w-6 mr-3" />
+          </a>
+          <a href="https://www.linkedin.com/in/caio-coelho/">
+            <FontAwesomeIcon icon={faLinkedin} className="w-6 text-blue-600" />
+          </a>
+        </div>
+        <p className="text-gray-500 sm:hidden block text-sm mt-3">
+          {" "}
+          Powered by{" "}
+          <a className="underline" href="https://nextjs.org/">
+            Next.js
+          </a>
+        </p>
         <p className="text-sm text-gray-400">© 2021 Caio C. Coelho.</p>
       </footer>
     </div>
