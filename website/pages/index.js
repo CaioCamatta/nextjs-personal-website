@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <Layout description={description} titleSuffix={titleSuffix}>
       <h2 className="text-4xl font-bold mb-3">About Me</h2>
-      <h3 className="text-xl text-gray-700 font-medium mt-3 mb-1">Projects</h3>
+      <h3 className="text-xl text-gray-700 font-medium mt-3 mb-1 pt-1">Projects</h3>
       <ul className="list-disc list-inside ml-3 mt-2 text-black-900">
         <li className="mt-2">
           <a href="https://liferpg.tech/" className="text-blue-600">
@@ -91,7 +91,7 @@ export default function Home() {
         </li>
       </ul>
 
-      <h3 className="text-xl text-gray-700 font-medium mt-5 mb-1">
+      <h3 className="text-xl text-gray-700 font-medium mt-5 mb-1 pt-2">
         Mobile Apps
       </h3>
       <ul className="list-disc list-inside ml-3 mt-2">
@@ -137,7 +137,7 @@ export default function Home() {
         </li>
       </ul>
 
-      <h3 className="text-xl text-gray-700 font-medium mt-5 mb-1">
+      <h3 className="text-xl text-gray-700 font-medium mt-5 mb-1 pt-2">
         Hackathons
       </h3>
       <ul className="list-disc list-inside ml-3 mt-2">
