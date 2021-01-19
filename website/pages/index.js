@@ -13,6 +13,14 @@ export default function Home() {
       <h3 className="text-xl text-gray-700 font-medium mt-3 mb-1">Projects</h3>
       <ul className="list-disc list-inside ml-3 mt-2 text-black-900">
         <li className="mt-2">
+          <a href="https://liferpg.tech/" className="text-blue-600">
+            LifeRPG
+          </a>{" "}
+          (2021): a one week sprint to create an RPG app where you progress your
+          character by completing real-life tasks. Personal initiative -
+          executed in a team of four using Next.js, React, Flask and Firebase.
+        </li>
+        <li className="mt-2">
           <a
             href="https://github.com/CaioCamatta/ModuLounge"
             className="text-blue-600"
