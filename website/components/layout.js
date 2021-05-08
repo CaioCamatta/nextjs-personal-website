@@ -54,7 +54,7 @@ export default function Layout({ children, description, titleSuffix }) {
           }}
         />
       </Head>
-      <main className="mb-auto">
+      <main className="mb-auto pb-14">
         <div className="container mx-auto sm:grid grid-cols-1 sm:grid-cols-3 sm:mt-28 mt-10 gap-x-5 max-w-5xl mb-2">
           <div className="side-panel sm:text-right text-center pb-5 mb-5 sm:mb-0 border-b sm:border-b-0 sm:pr-8 sm:border-r sm:pl-4 border-gray-200">
             <Image
@@ -65,7 +65,7 @@ export default function Layout({ children, description, titleSuffix }) {
               className="rounded-full ml-auto"
               quality="100"
             />
-            <h1 className="text-3xl pt-3 font-extrabold">
+            <h1 className="text-3xl pt-3 font-bold text-gray-800">
               <Link href="/">
                 <a>Caio C. Coelho</a>
               </Link>
@@ -82,6 +82,11 @@ export default function Layout({ children, description, titleSuffix }) {
               <p className="sm:mt-3 mx-4 sm:mx-0 hover:underline text-xl">
                 <Link href="/resume">
                   <a>Resume</a>
+                </Link>
+              </p>
+              <p className="sm:mt-3 mx-4 sm:mx-0 hover:underline text-xl">
+                <Link href="/showcase">
+                  <a>Showcase</a>
                 </Link>
               </p>
               {/* <p className="sm:mt-3 mx-2 sm:mx-0 hover:underline text-xl">

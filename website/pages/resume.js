@@ -5,7 +5,7 @@ import Link from "next/link";
 const description = "Caio's resume.";
 const titleSuffix = "Resume";
 
-export default function Home() {
+export default function Resume() {
   return (
     <Layout description={description} titleSuffix={titleSuffix}>
       <h2 className="text-4xl font-bold mb-3">Resume</h2>
