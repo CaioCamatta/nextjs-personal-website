@@ -10,8 +10,8 @@ export default function Resume() {
     <Layout description={description} titleSuffix={titleSuffix}>
       <h2 className="text-4xl font-bold mb-3">Resume</h2>
       <p>
-        Here you will find information regarding my relevant work experience and
-        education, as well as skills, activities and contact info.
+        Here you will find details about my relevant work experience, education,
+        skills, activities, and contact info.
       </p>
       <p className="mt-2">
         <a href="/Caio_C_Coelho_Resume.pdf" className="underline">

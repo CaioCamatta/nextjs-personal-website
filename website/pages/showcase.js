@@ -1,6 +1,6 @@
 import Layout from "../components/layout";
 import React, { useState } from "react";
-import ShowcaseLitePM from "../components/showcase-litepm";
+import ShowcaseLitePM from "../components/showcase/showcase-litepm";
 
 const description =
   "Examples of Caio's software development and leadership work.";
