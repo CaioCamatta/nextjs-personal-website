@@ -19,12 +19,12 @@ export default function showcaseItem() {
         7 days, with 8 hours of commitment per day. LitePM took 10 days to
         build.
       </p>
-      <h4 className="text-2xl mb-2 mt-3">The Problem</h4>
+      <h4 className="text-xl mb-1 mt-4">The Problem</h4>
       <p>Lorem Ipsum</p>
-      <h4 className="text-2xl mb-2 mt-3">The Solution</h4>
+      <h4 className="text-xl mb-1 mt-4">The Solution</h4>
       <p>Lorem Ipsum</p>
       Created in Next.js / React, Node.js and hosted on AWS EC2.
-      <h4 className="text-2xl mb-2 mt-3">Retrospective</h4>
+      <h4 className="text-xl mb-1 mt-4">Retrospective</h4>
       <p>Lorem Ipsum</p>
     </div>
   );
