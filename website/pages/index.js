@@ -15,6 +15,16 @@ export default function Home() {
       </h3>
       <ul className="list-disc list-inside ml-3 mt-2 text-black-900">
         <li className="mt-2">
+          <a
+            href="https://www.figma.com/proto/D95fVAZ5g3JIKEOemr9FAt/Asset-Management-System-Mockup-Generic?node-id=1%3A2&scaling=contain&page-id=0%3A1"
+            className="text-blue-600"
+          >
+            Asset Management System
+          </a>{" "}
+          (2021): a dashboard to manage physical assets in a lab, track state of
+          items via integrations with other services, and assign ownership.
+        </li>
+        <li className="mt-2">
           <a href="https://litepm.com/" className="text-blue-600">
             LitePM
           </a>{" "}
@@ -73,10 +83,10 @@ export default function Home() {
         </li>
         <li className="mt-2">
           <a
-            href="https://www.centraltruckandtrailer.com/"
+            href="https://www.centraltruckandtire.com/"
             className="text-blue-600"
           >
-            Central Truck and Trailer Shop
+            Central Truck and Tire Shop
           </a>{" "}
           (2020): Website Design on Squarespace.
         </li>
