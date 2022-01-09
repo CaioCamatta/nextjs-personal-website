@@ -16,10 +16,29 @@ export default function Home() {
       <ul className="list-disc list-inside ml-3 mt-2 text-black-900">
         <li className="mt-2">
           <a
+            href="http://ec2-3-144-157-84.us-east-2.compute.amazonaws.com:8080/"
+            className="text-blue-600"
+          >
+            Service-Oriented Stocks App
+          </a>{" "}
+          (2021): A stock market app with multiple services (e.g., graphs,
+          news). The app uses a service-oriented architecture that allows
+          services to be added or removed at runtime. Created in a group of 5
+          and deployed on AWS EC2 using Docker.{" "}
+          <a
+            href="https://github.com/CaioCamatta/StockTracker"
+            className="text-blue-600"
+          >
+            GitHub Repo
+          </a>
+          .
+        </li>
+        <li className="mt-2">
+          <a
             href="https://www.figma.com/proto/D95fVAZ5g3JIKEOemr9FAt/Asset-Management-System-Mockup-Generic?node-id=1%3A2&scaling=contain&page-id=0%3A1"
             className="text-blue-600"
           >
-            Asset Management System
+            Inventory Management System
           </a>{" "}
           (2021): a dashboard to manage physical assets in a lab, track state of
           items via integrations with other services, and assign ownership.
