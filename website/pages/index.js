@@ -53,7 +53,7 @@ export default function Home() {
           with three other developers.
         </li>
         <li className="mt-2">
-          <a href="https://liferpg.tech/" className="text-blue-600">
+          <a href="https://rpg-of-life-frontend.vercel.app/" className="text-blue-600">
             LifeRPG
           </a>{" "}
           (2021): another one-week sprint to create an RPG app where you
