@@ -15,6 +15,27 @@ export default function Home() {
       </h3>
       <ul className="list-disc list-inside ml-3 mt-2 text-black-900">
         <li className="mt-2">
+          <a href="https://dev.votingbuck.com/" className="text-blue-600">
+            Votingbuck
+          </a>{" "}
+          (2021-2022; Capstone project): Web app to visualize how corporations
+          and universities donate to politicians. Interesting architecture with
+          API in Express.js (TypeScript), Redis cache, PostgreSQL database,
+          Nginx load balancer, and CI/CD for automatic test/build/deployment,
+          React frontend, and more.{" "}
+          <a href="https://api.votingbuck.com/" className="text-blue-600">
+            Swagger API
+          </a>
+          ,{" "}
+          <a
+            href="https://github.com/CaioCamatta/votingbuck-backend"
+            className="text-blue-600"
+          >
+            GitHub Repo
+          </a>
+          .
+        </li>
+        <li className="mt-2">
           <a
             href="http://ec2-3-144-157-84.us-east-2.compute.amazonaws.com:8080/"
             className="text-blue-600"
@@ -53,7 +74,10 @@ export default function Home() {
           with three other developers.
         </li>
         <li className="mt-2">
-          <a href="https://rpg-of-life-frontend.vercel.app/" className="text-blue-600">
+          <a
+            href="https://rpg-of-life-frontend.vercel.app/"
+            className="text-blue-600"
+          >
             LifeRPG
           </a>{" "}
           (2021): another one-week sprint to create an RPG app where you

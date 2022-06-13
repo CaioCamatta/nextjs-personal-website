@@ -23,7 +23,7 @@ export default function Home() {
           src="/Caio_C_Coelho_Resume.png"
           alt={name}
           width="1133"
-          height="1600"
+          height="1751"
           className="rounded-sm -mt-3"
           layout="responsive"
           quality={100}

@@ -67,12 +67,12 @@ export default function Layout({ children, description, titleSuffix }) {
             />
             <h1 className="text-3xl pt-3 font-extrabold">
               <Link href="/">
-                <a>Caio C. Coelho</a>
+                <a>Caio Camatta</a>
               </Link>
             </h1>
             <p className="text-gray-600 pt-3">Software Engineer</p>
-            <p className="text-gray-600">Student at Western University</p>
-            <p className="text-gray-600">London, ON - Canada</p>
+            <p className="text-gray-600">Western University '22</p>
+            <p className="text-gray-600">Toronto, Canada</p>
             <div className="inline-flex sm:block mt-2 sm:mt-0">
               <p className="sm:mt-5 mx-2 sm:mx-0 hover:underline text-xl">
                 <Link href="/">
@@ -143,7 +143,7 @@ export default function Layout({ children, description, titleSuffix }) {
             Next.js
           </a>
         </p>
-        <p className="text-sm text-gray-500">© 2021 Caio Camatta Coelho</p>
+        <p className="text-sm text-gray-500">© 2022 Caio Camatta Coelho</p>
       </footer>
     </div>
   );
