@@ -65,7 +65,7 @@ export default function Home() {
           items via integrations with other services, and assign ownership.
         </li>
         <li className="mt-2">
-          <a href="https://litepm.com/" className="text-blue-600">
+          <a href="https://lite-pm.vercel.app/" className="text-blue-600">
             LitePM
           </a>{" "}
           (2021): an easy-to-use Project Management app to manage small group
