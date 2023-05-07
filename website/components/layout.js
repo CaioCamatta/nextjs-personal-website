@@ -136,14 +136,7 @@ export default function Layout({ children, description, titleSuffix }) {
             <FontAwesomeIcon icon={faLinkedin} className="w-6 text-blue-600" />
           </a>
         </div>
-        <p className="text-gray-500 sm:hidden block text-sm mt-3">
-          {" "}
-          Powered by{" "}
-          <a className="underline" href="https://nextjs.org/">
-            Next.js
-          </a>
-        </p>
-        <p className="text-sm text-gray-500">© 2022 Caio Camatta Coelho</p>
+        <p className="text-sm text-gray-500">2022 - Caio Camatta Coelho</p>
       </footer>
     </div>
   );
