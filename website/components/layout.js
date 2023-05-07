@@ -67,7 +67,7 @@ export default function Layout({ children, description, titleSuffix }) {
             />
             <h1 className="text-3xl pt-3 font-extrabold">
               <Link href="/">
-                <a>Caio Camatta</a>
+                Caio Camatta
               </Link>
             </h1>
             <p className="text-gray-600 pt-3">Software Engineer</p>
@@ -76,12 +76,12 @@ export default function Layout({ children, description, titleSuffix }) {
             <div className="inline-flex sm:block mt-2 sm:mt-0">
               <p className="sm:mt-5 mx-2 sm:mx-0 hover:underline text-xl">
                 <Link href="/">
-                  <a>About</a>
+                  About
                 </Link>
               </p>
               <p className="sm:mt-3 mx-4 sm:mx-0 hover:underline text-xl">
                 <Link href="/resume">
-                  <a>Resume</a>
+                  Resume
                 </Link>
               </p>
               {/* <p className="sm:mt-3 mx-2 sm:mx-0 hover:underline text-xl">

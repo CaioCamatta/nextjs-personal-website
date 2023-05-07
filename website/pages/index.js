@@ -1,6 +1,4 @@
-import Head from "next/head";
-import Layout, { siteTitle, name } from "../components/layout";
-import Link from "next/link";
+import Layout from "../components/layout";
 
 const description =
   "Caio Camatta Coelho's personal website, portfolio, and resume.";
