@@ -107,13 +107,6 @@ export default function Layout({ children, description, titleSuffix }) {
                 />
               </a>
             </div>
-            <p className="text-gray-500 hidden sm:block text-sm mt-3">
-              {" "}
-              Powered by{" "}
-              <a className="underline" href="https://nextjs.org/">
-                Next.js
-              </a>
-            </p>
           </div>
           <div className="content-panel col-span-2 sm:mx-4 mx-5">
             {children}
