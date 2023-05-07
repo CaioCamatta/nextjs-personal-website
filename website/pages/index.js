@@ -17,10 +17,10 @@ export default function Home() {
             Votingbuck
           </a>{" "}
           (2021-2022; Capstone project): Web app to visualize how corporations
-          and universities donate to politicians. Interesting architecture with
-          API in Express.js (TypeScript), Redis cache, PostgreSQL database,
+          and universities donate to politicians. Components: 
+          Express.js API (TypeScript), Redis cache, PostgreSQL database,
           Nginx load balancer, and CI/CD for automatic test/build/deployment,
-          React frontend, and more.{" "}
+          React frontend.{" "}
           <a href="https://api.votingbuck.com/" className="text-blue-600">
             Swagger API
           </a>
@@ -68,7 +68,7 @@ export default function Home() {
           </a>{" "}
           (2021): an easy-to-use Project Management app to manage small group
           projects (2-8 people). Created in Next.js / React, Node.js and hosted
-          on AWS EC2. I organized this sprint in a 7-day hackathon-like format
+          on AWS EC2. Created in 7-day hackathon-style sprint
           with three other developers.
         </li>
         <li className="mt-2">
@@ -78,9 +78,8 @@ export default function Home() {
           >
             LifeRPG
           </a>{" "}
-          (2021): another one-week sprint to create an RPG app where you
-          progress your character by completing real-life tasks. Personal
-          initiative - executed in a team of four using Next.js, React, Flask
+          (2021): RPG app where you
+          progress your character by completing real-life tasks. Uses Next.js, React, Flask
           and Firebase.
         </li>
         <li className="mt-2">
@@ -90,46 +89,25 @@ export default function Home() {
           >
             ModuLounge
           </a>{" "}
-          (2020): a C++ app to turn any screen into a smart-ish TV. We used JIRA
-          to manage this Agile group project.
+          (2020): a C++ app to turn any screen into a smart-ish TV.
         </li>
         <li className="mt-2">
           <a
             href="https://wai-music-genre-classification.herokuapp.com/"
             className="text-blue-600"
           >
-            WesternAI Project
+            Music genre classification AI project
           </a>{" "}
-          (2020): a music genre classification model. As Project Manager, I led
-          four developers to create the Keras model and publish the Flask
-          website.
+          (2020): a music genre classification model deployed live using a Flask server and tensorflow.js. Published a <a href="https://viewscreen.githubusercontent.com/view/pdf?browser=chrome&bypass_fastly=true&color_mode=light&commit=99588db1db68dc28e9508eaaccec0e9221fef964&device=unknown_device&docs_host=https%3A%2F%2Fdocs.github.com&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f43554341492d6f6666696369616c2f63756361692d323032312f393935383864623164623638646332386539353038656161636365633065393232316665663936342f7374617469632f43554341495f323032315f50726f63656564696e67732e706466&logged_in=true&nwo=CUCAI-official%2Fcucai-2021&path=static%2FCUCAI_2021_Proceedings.pdf&platform=mac&repository_id=348782458&repository_type=Repository&version=112" className="text-blue-600">
+            paper
+          </a> at the Canadian Undergraduate Conference on AI (CUCAI).
         </li>
         <li className="mt-2">
           <a href="https://jcconstrutora.com.br/" className="text-blue-600">
             JCC Construction
           </a>{" "}
-          (2018-2020): website for a real estate development company.
-          Server-less implementation using AWS, Python/Flask and HTML/CSS/Js. I
-          also dedicated considerable time to SEO and tracking. This website was
-          originally in Django.
-        </li>
-        <li className="mt-2">
-          <a
-            href="https://caio-website-prod.herokuapp.com/"
-            className="text-blue-600"
-          >
-            My Former Personal Website
-          </a>{" "}
-          (2020): in Gatsby.js, React.js, GraphQL. Hosted on Heroku.
-        </li>
-        <li className="mt-2">
-          <a
-            href="https://www.centraltruckandtire.com/"
-            className="text-blue-600"
-          >
-            Central Truck and Tire Shop
-          </a>{" "}
-          (2020): Website Design on Squarespace.
+          (2016-2020): website for a real estate development company.
+          Server-less deployment using AWS, Python/Flask and HTML/CSS/Js. Optimized for SEO.
         </li>
         <li className="mt-2">
           <a
@@ -138,8 +116,7 @@ export default function Home() {
           >
             University Course Database
           </a>{" "}
-          (2020): a PHP & SQL school assignment. I am currently moving this
-          project away from the school's server and into its own.
+          (2020): a PHP & SQL school assignment.
         </li>
         <li className="mt-2">
           <a
