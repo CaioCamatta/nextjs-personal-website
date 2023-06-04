@@ -30,14 +30,14 @@ export default function Layout({ children, description, titleSuffix }) {
           )}.png?theme=light&sm=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
         />
         <meta
-          name="og:title"
+          property="og:title"
           content={titleSuffix ? `${siteTitle} | ${titleSuffix}` : siteTitle}
+          key="title"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:type" content="website" />
         <title>
-          {siteTitle}
-          {titleSuffix && ` | ${titleSuffix}`}
+          {titleSuffix ? `${siteTitle} | ${titleSuffix}` : siteTitle}
         </title>
         <script
           async
