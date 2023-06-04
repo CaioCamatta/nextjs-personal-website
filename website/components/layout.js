@@ -10,7 +10,7 @@ import Obfuscate from "react-obfuscate";
 import styles from "./layout.module.css";
 
 export const name = "Caio Camatta Coelho";
-export const siteTitle = "Caio C. Coelho";
+export const siteTitle = "Caio Camatta";
 
 export default function Layout({ children, description, titleSuffix }) {
   const mail1 = "caioz";
@@ -31,7 +31,7 @@ export default function Layout({ children, description, titleSuffix }) {
         />
         <meta
           name="og:title"
-          content={titleSuffix ? siteTitle + ` | ${titleSuffix}` : siteTitle}
+          content={titleSuffix ? `${siteTitle} | ${titleSuffix}` : siteTitle}
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="og:type" content="website" />
