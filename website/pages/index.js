@@ -52,7 +52,7 @@ export default function Home() {
           (2021): A stock market app with multiple services (e.g., graphs,
           news). It uses a service-oriented architecture that allows services to
           be added or removed at runtime. We created this in a group of 5 and
-          deployed on AWS EC2 using Docker. [
+          deployed on AWS EC2. [
           <a
             href="https://github.com/CaioCamatta/StockTracker"
             className="text-blue-600"
@@ -74,8 +74,7 @@ export default function Home() {
           <a href="https://lite-pm.vercel.app/" className="text-blue-600">
             LitePM
           </a>{" "}
-          (2021): a Project Management app to manage small group projects. Created in a 7-day sprint with friends. It uses
-          Next.js and is hosted on AWS EC2.
+          (2021): a Project Management app to manage small group projects. Created in a 7-day sprint with friends.
         </li>
         <li className="mt-2">
           <a
@@ -201,7 +200,7 @@ export default function Home() {
           >
             Tilefall
           </a>{" "}
-          (2016): a C# Unity app published on Google Play.
+          (2016): a C# Unity game published on Google Play.
         </li>
       </ul>
 
@@ -243,7 +242,7 @@ export default function Home() {
           >
             Hack The North 2018
           </a>
-          : "MoodMatch", an app that uses facial recognition to determine your current mood and show you appropriate memes. It uses Azure and the Reddis api.
+          : "MoodMatch", an app that uses facial recognition to determine your current mood and show you appropriate memes. It uses Azure and the Reddit API.
         </li>
       </ul>
     </Layout>
