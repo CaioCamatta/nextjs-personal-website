@@ -70,6 +70,7 @@ export default function Layout({ children, description, titleSuffix }) {
                 Caio Camatta
               </Link>
             </h1>
+            <p className="text-gray-600">(KY-oh)</p>
             <p className="text-gray-600 pt-3">Software Engineer</p>
             <p className="text-gray-600">Western University '22</p>
             <p className="text-gray-600">Toronto, Canada</p>
@@ -79,11 +80,11 @@ export default function Layout({ children, description, titleSuffix }) {
                   About
                 </Link>
               </p>
-              <p className="sm:mt-3 mx-4 sm:mx-0 hover:underline text-xl">
+              {/* <p className="sm:mt-3 mx-4 sm:mx-0 hover:underline text-xl">
                 <Link href="/resume">
                   Resume
                 </Link>
-              </p>
+              </p> */}
               {/* <p className="sm:mt-3 mx-2 sm:mx-0 hover:underline text-xl">
                 <Link href="/contact">
                   <a>Contact</a>

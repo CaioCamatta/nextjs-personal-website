@@ -9,7 +9,8 @@ export default function Home() {
   return (
     <Layout description={description} titleSuffix={titleSuffix}>
       <h2 className="text-4xl font-bold mb-3">Resume</h2>
-      <p>
+      
+      {/* <p>
         May 2022 Resume. <a href="/Caio_C_Coelho_Resume.pdf" className="underline">
           PDF Version
         </a>.
@@ -24,7 +25,7 @@ export default function Home() {
           layout="responsive"
           quality={100}
         />
-      </div>
+      </div> */}
     </Layout>
   );
 }
