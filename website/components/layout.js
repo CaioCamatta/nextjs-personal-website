@@ -58,7 +58,7 @@ export default function Layout({ children, description, titleSuffix }) {
         <div className="container mx-auto sm:grid grid-cols-1 sm:grid-cols-3 sm:mt-28 mt-10 gap-x-5 max-w-5xl mb-2">
           <div className="side-panel sm:text-right text-center pb-5 mb-5 sm:mb-0 border-b sm:border-b-0 sm:pr-8 sm:border-r sm:pl-4 border-gray-200">
             <Image
-              src="/profile900.png"
+              src="/profile-large.jpeg"
               alt={name}
               width="100"
               height="100"
@@ -130,7 +130,7 @@ export default function Layout({ children, description, titleSuffix }) {
             <FontAwesomeIcon icon={faLinkedin} className="w-6 text-blue-600" />
           </a>
         </div>
-        <p className="text-sm text-gray-500">2022 - Caio Camatta Coelho</p>
+        <p className="text-sm text-gray-500">2024 - Caio Camatta Coelho</p>
       </footer>
     </div>
   );

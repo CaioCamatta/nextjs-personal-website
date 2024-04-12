@@ -20,6 +20,12 @@ export default function Home() {
       </h3>
       <ul className="list-disc list-inside ml-3 mt-2 text-gray-800">
         <li className="mt-2">
+          <a href="https://github.com/CaioCamatta/sol-script/" className="text-blue-600">
+            SolScript
+          </a>{" "}
+          (2023-2024): A programming language with an ahead-of-time compiler and a stack-based VM inspired by CPython and the JVM.
+        </li>
+        <li className="mt-2">
           <a href="https://github.com/CaioCamatta/clox/" className="text-blue-600">
             Lox
           </a>{" "}
